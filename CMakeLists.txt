@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(arreglos main.cpp
         funcion1.cpp
-        funcion1.h)
+        funcion1.h
+        funcion2.cpp
+        funcion2.h)

@@ -61,6 +61,12 @@ build CMakeFiles/arreglos.dir/funcion1.cpp.obj: CXX_COMPILER__arreglos_unscanned
   OBJECT_DIR = CMakeFiles\arreglos.dir
   OBJECT_FILE_DIR = CMakeFiles\arreglos.dir
 
+build CMakeFiles/arreglos.dir/funcion2.cpp.obj: CXX_COMPILER__arreglos_unscanned_Debug C$:/Users/crist/CLionProjects/arreglos/funcion2.cpp || cmake_object_order_depends_target_arreglos
+  DEP_FILE = CMakeFiles\arreglos.dir\funcion2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arreglos.dir
+  OBJECT_FILE_DIR = CMakeFiles\arreglos.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target arreglos
@@ -69,7 +75,7 @@ build CMakeFiles/arreglos.dir/funcion1.cpp.obj: CXX_COMPILER__arreglos_unscanned
 #############################################
 # Link the executable arreglos.exe
 
-build arreglos.exe: CXX_EXECUTABLE_LINKER__arreglos_Debug CMakeFiles/arreglos.dir/main.cpp.obj CMakeFiles/arreglos.dir/funcion1.cpp.obj
+build arreglos.exe: CXX_EXECUTABLE_LINKER__arreglos_Debug CMakeFiles/arreglos.dir/main.cpp.obj CMakeFiles/arreglos.dir/funcion1.cpp.obj CMakeFiles/arreglos.dir/funcion2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\arreglos.dir
