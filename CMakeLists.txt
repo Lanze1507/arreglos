@@ -11,4 +11,6 @@ add_executable(arreglos main.cpp
         funcion3.cpp
         funcion3.h
         funcion4.cpp
-        funcion4.h)
+        funcion4.h
+        funcion5.cpp
+        funcion5.h)
